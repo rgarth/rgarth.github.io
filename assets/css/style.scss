@@ -1,4 +1,43 @@
 ---
 ---
 
+
 @import "jekyll-theme-minimal";
+
+body {
+    background-color: #fff;
+    padding:50px;
+    font: 17px/1.5 "EB Garamond", Garmond, Baskerville, serif;
+    color:#727272;
+    font-weight:400;
+  }
+
+.circular--square {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.sidebar {
+    align-content: center;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-variant: small-caps;
+}
+
+a {
+  color:#226699;
+  text-decoration:none;
+}
+
+a:hover, a:focus {
+  color:#069;
+  font-weight:none;
+}
+
+.icon {
+  width: 16px;
+  height: 16px;
+}
