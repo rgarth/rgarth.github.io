@@ -16,7 +16,7 @@ body {
   border-radius: 50%;
   width: 200px;
   height: 200px;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
 }
 
 .sidebar {
@@ -34,6 +34,14 @@ a {
 }
 
 .icon {
-  width: 16px;
-  height: 16px;
+  vertical-align: middle;
+  width: 22px;
+  height: 22px;
+}
+
+p.view {
+  vertical-align: middle;
+  text-align: left;
+  line-height: 2;
+  margin-left: 10px;
 }
