@@ -33,8 +33,11 @@
             <a href="{{ site.instagram }}"><img class="icon" src="{{site.insta_icon | relative_url}}" /></a> Follow me on <a href="{{ site.instagram }}">Instagram</a><br>
           {% endif %}
           {% if site.redbubble %}
-            <a href="{{ site.redbubble }}"><img class="icon" src="{{site.rb_icon | relative_url}}" /></a> Greeting cards on <a href="{{ site.redbubble }}">Redbubble</a>
+            <a href="{{ site.redbubble }}"><img class="icon" src="{{site.rb_icon | relative_url}}" /></a> Greeting cards on <a href="{{ site.redbubble }}">Redbubble</a><br>
           {% endif %}
+          {% if site.email %}
+            <a href="mailto:{{ site.email }}"><img class="icon" src="{{site.email_icon | relative_url}}" /></a> <a href="mailto:{{site.email}}">{{site.email}}</a><br>
+          {% endif %} 
         </p>
       </header>
       <section>
