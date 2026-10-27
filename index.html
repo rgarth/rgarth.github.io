@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Build: 2026-04-15 08:26:00 -->
+    <!-- Build: 2026-10-27 12:56:10 -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>R. L. Garth | Children's Author</title>
@@ -101,22 +101,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Lora:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div class="progress-bar" id="progress"></div>
 
     <!-- Navigation -->
     <nav class="nav-bar" id="navBar">
-        <a class="nav-link" href="#home" data-section="0">Home</a>
+        <a class="nav-link" href="#home">Home</a>
         <span class="nav-separator">|</span>
-        <a class="nav-link" href="#penelope" data-section="1">Penelope Lemon</a>
+        <a class="nav-link" href="#penelope">Penelope Lemon</a>
         <span class="nav-separator">|</span>
-        <a class="nav-link" href="#boneeaters" data-section="2">Bone Eaters</a>
+        <a class="nav-link" href="#boneeaters">Bone Eaters</a>
         <span class="nav-separator">|</span>
-        <a class="nav-link" href="#stories" data-section="3">Fables</a>
+        <a class="nav-link" href="#stories">Fables</a>
         <span class="nav-separator">|</span>
-        <a class="nav-link" href="#about" data-section="4">About</a>
+        <a class="nav-link" href="#manuscriptic">Manuscriptic</a>
+        <span class="nav-separator">|</span>
+        <a class="nav-link" href="#about">About</a>
     </nav>
 
     <!-- Entry Screen -->
@@ -141,7 +143,7 @@
             <div class="sky" id="sky"></div>
 
             <!-- Section 0: Home -->
-            <div class="content-section" id="section0">
+            <div class="content-section" id="home">
                 <div class="content-card">
                     <img src="assets/img/me.jpg" alt="R. L. Garth" class="author-image">
                     <h1>R. L. Garth</h1>
@@ -151,7 +153,7 @@
             </div>
 
             <!-- Section 1: Penelope Lemon -->
-            <div class="content-section" id="section1">
+            <div class="content-section" id="penelope">
                 <div class="content-card">
                     <h2>Coming Soon</h2>
                     <article class="book-card book-penelope">
@@ -166,7 +168,7 @@
             </div>
 
             <!-- Section 2: Bone Eaters -->
-            <div class="content-section" id="section2">
+            <div class="content-section" id="boneeaters">
                 <div class="content-card content-card-dark">
                     <h2>Coming Soon</h2>
                     <article class="book-card book-bone-eaters">
@@ -181,7 +183,7 @@
             </div>
 
             <!-- Section 3: Short Stories -->
-            <div class="content-section" id="section3">
+            <div class="content-section" id="stories">
                 <div class="content-card content-card-sepia">
                     <h2>Coming Soon</h2>
                     <article class="book-card book-fables">
@@ -194,8 +196,20 @@
                 </div>
             </div>
 
-            <!-- Section 4: About -->
-            <div class="content-section" id="section4">
+            <!-- Section 4: Manuscriptic -->
+            <div class="content-section" id="manuscriptic">
+                <div class="content-card content-card-sepia">
+                    <article class="book-card book-fables">
+                        <p class="book-label">Writing app</p>
+                        <h3 class="book-title">Manuscriptic</h3>
+                        <p class="book-description">A great tool for writing novels. It keeps the notes and the manuscript, holds a full history so you can roll back to a snapshot, and can export the draft to a Word document.</p>
+                        <a href="https://github.com/rgarth/manuscriptic" class="excerpt-link excerpt-link-sepia" target="_blank" rel="noopener">View on GitHub</a>
+                    </article>
+                </div>
+            </div>
+
+            <!-- Section 5: About -->
+            <div class="content-section" id="about">
                 <div class="content-card">
                     <h2>About the Author</h2>
                     <p>R. L. Garth started telling stories to his children—once they outgrew them, he decided to write some of them down. Creating on Dharug Country.</p>
@@ -232,6 +246,6 @@
         <div class="excerpt-content" id="excerptContent"></div>
     </div>
 
-    <script src="assets/js/main.min.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>

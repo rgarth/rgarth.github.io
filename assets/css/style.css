@@ -22,7 +22,7 @@ body {
 /* The scroll container */
 .scroll-journey {
     position: relative;
-    height: 600vh;
+    height: 700vh;
 }
 
 /* Fixed viewport for the 3D effect */
@@ -473,81 +473,6 @@ p {
     color: #8b7355;
 }
 
-/* Audio player — shared structure */
-.excerpt-header-with-audio {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 10px;
-}
-
-.excerpt-header-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.excerpt-audio {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    padding-bottom: 2px;
-}
-
-.audio-play-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background: var(--audio-btn-bg);
-    color: var(--audio-btn-color);
-    border: none;
-    border-radius: 20px;
-    padding: 6px 16px 6px 12px;
-    font-family: 'Lora', serif;
-    font-size: 0.82rem;
-    cursor: pointer;
-    transition: background 0.2s;
-    white-space: nowrap;
-}
-
-.audio-play-btn:hover {
-    background: var(--audio-btn-hover);
-}
-
-.audio-icon-pause {
-    display: none;
-}
-
-.audio-play-btn.playing .audio-icon-play {
-    display: none;
-}
-
-.audio-play-btn.playing .audio-icon-pause {
-    display: block;
-}
-
-.audio-time {
-    font-family: 'Lora', serif;
-    font-size: 0.78rem;
-    color: var(--audio-time-color);
-    letter-spacing: 0.03em;
-}
-
-/* Green theme (Penelope Lemon) */
-.excerpt-header {
-    --audio-btn-bg: #4a7c47;
-    --audio-btn-color: #f0f8e8;
-    --audio-btn-hover: #2a4a3e;
-    --audio-time-color: #4a7c47;
-}
-
-/* Sepia theme (Remy's Boxes) */
-.excerpt-header-sepia {
-    --audio-btn-bg: #8b7355;
-    --audio-btn-color: #f5f0e6;
-    --audio-btn-hover: #6b5d4d;
-    --audio-time-color: #8b7355;
-}
-
 /* Links */
 a {
     color: #2d4a3e;
@@ -563,7 +488,7 @@ a:hover { color: #6b3a3a; }
 }
 
 /* Contact */
-#section4 .content-card {
+#about .content-card {
     text-align: center;
 }
 
@@ -708,6 +633,7 @@ footer p {
     padding: 12px 20px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 8px;
     background: rgba(248, 244, 239, 0.9);
     backdrop-filter: blur(10px);
